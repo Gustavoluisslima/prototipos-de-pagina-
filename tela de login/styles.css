@@ -1,0 +1,196 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Container */
+.container {
+    width: 1440px;
+    height: auto;
+    background: linear-gradient(180deg, #B5B6F2 0%, #EFEFFF 100%);
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    width: 1440px;
+    height: 80px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.header h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    color: #C92071;
+}
+
+/* Main Content */
+.main-content {
+    width: 1440px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 50px 100px;
+}
+
+.login-box {
+    width: 583px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 30px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.login-box h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    color: #1F1F1F;
+}
+
+.login-box p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #474747;
+}
+
+.login-box a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-box label {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #474747;
+}
+
+.login-box input {
+    height: 60px;
+    padding: 0 15px;
+    border-radius: 8px;
+    border: 1px solid #474747;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.login-box .login-button {
+    height: 48px;
+    background: #C92071;
+    border: none;
+    border-radius: 8px;
+    color: #F5F5F5;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.social-login {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    gap: 10px; /* Espaçamento entre o texto e os ícones */
+    margin-top: 20px; /* Espaçamento superior, ajuste conforme necessário */
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px; /* Espaçamento entre os ícones */
+}
+
+.social-icons img {
+    width: 24px; /* Tamanho dos ícones */
+    height: 24px;
+}
+
+.facebook-icon,
+.gmail-icon {
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    display: block;
+}
+
+.facebook-icon {
+    background: #1877F2;
+}
+
+.gmail-icon {
+    background: #0085F7;
+}
+
+.image-container {
+    max-width: 50%;
+    text-align: right;
+    margin-left: auto;
+    align-self: flex-start; /* Alinha a imagem no topo do main-content */
+    margin-top: -100px; /* Ajuste o valor negativo para puxar a imagem para cima */
+    padding-left: 20px;
+}
+
+.image-container img {
+    max-width: 100%; /* Garante que a imagem não exceda a largura do container */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+ /* footer */
+ .footer {
+    position: absolute;
+    width: 1440px;
+    height: 454px;
+    left: 0px;
+    top: 923px;
+    background: #1F1F1F;
+    color: white;
+}
+
+.footer .section {
+    position: absolute;
+    top: 72px;
+    color: #FFFFFF;
+}
+
+.footer .section h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.footer .section p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.footer .info {
+    left: 612px;
+    width: 135px;
+}
+
+.footer .categories {
+    left: 849px;
+    width: 96px;
+}
+
+.footer .contact {
+    left: 1113px;
+    width: 233px;
+}
